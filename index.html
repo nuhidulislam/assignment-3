@@ -1,12 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
-  </head>
-  <body class="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- google font cdn -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+  <body class="m-0 p-0   box-border text-black  mx-auto">
+<div class="bg-[#f1f1f1] w-full border border-red-600">
+  <div class="bg-[#f1f1f1] py-10">
+    <!-- nav section start here -->
+    <nav class="max-w-screen-xl  flex mx-auto items-center justify-between">
+    
+      <div class="flex items-center gap-x-4  ">
+        <div class="bg-[#ABEF5F] h-10 w-10 text-2xl -rotate-45 rounded-full flex justify-center items-center">
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        
+        <h1 class="font-extrabold text-5xl flex items-center">Rinterio</h1>
+      </div>
+      <div>
+        <ul class="flex gap-5">
+          <li><a class="text-gray-500 text-xl font-bold hover:text-black " href="#">Home</a></li>
+          <li><a class="text-gray-500 text-xl font-bold hover:text-black " href="#">Services</a></li>
+          <li><a class="text-gray-500 text-xl font-bold hover:text-black " href="#">Portfolio</a></li>
+          <li><a class="text-gray-500 text-xl font-bold hover:text-black " href="#">Blogs</a></li>
+          <li><a class="text-gray-500 text-xl font-bold hover:text-black " href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    
+    
+      <div class="flex items-center gap-4">
+        <div class="bg-white h-12 w-12 rounded-full flex justify-center items-center cursor-pointer text-xl text-gray-600 "><i class="fa-solid fa-magnifying-glass"></i> </div>
+        <div class="bg-white h-12 w-12 rounded-full flex justify-center items-center cursor-pointer text-xl text-gray-600  "> <i class="fa-solid fa-cart-shopping"></i> </div>
+        <div class="flex items-center gap-5 bg-[#ABEF5F] p-2 px-5 rounded-3xl cursor-pointer">
+          <div> <h1 class="font-semibold text-2xl">Book Consult</h1></div>
+  
+          
+            <div class="bg-black  h-8 w-8 text-xl -rotate-45 rounded-full flex justify-center items-center text-white">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+       
+      </div>
+     </nav>
+
+     <!-- nav section end here -->
+      <!-- banner section start here -->
+  
+     <div>
+      <div class="flex justify-center">
+        <img src="images/banner.png" alt="">
+      </div>
+      <div class="flex justify-center items-center flex-col">
+        <h1 class="text-5xl font-black flex justify-center text-center p-2">A barn house of this design has a <br> striking appearance</h1>
+        <p class="w-3/5 justify-center flex text-center  p-2">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        <div class="flex items-center gap-5 bg-[#acef5f83] p-2 px-5 rounded-3xl cursor-pointer">
+          <div> <h1 class="font-semibold text-xl">View Details</h1></div>
+  
+          
+            <div class=" bg-[#9dfb32]  h-8 w-8 text-xl -rotate-45 rounded-full flex justify-center items-center text-black">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+       
+      </div>
+      </div>
+     </div>
+
+
+  </div>
+</div>
+
+     <!-- banner section end here -->
+
+     <!-- about us section start here -->
+      <div>
+        
+      </div>
+      <!-- about us section end here -->
 
   </body>
 </html>
