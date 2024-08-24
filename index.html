@@ -253,15 +253,15 @@
         <h1 class="text-center text-6xl font-bold py-5">Our Latest Portfolio</h1>
         <p class="text-center px-4 text-2xl text-[#494949] mb-7">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
 
-        <div class=" flex flex-col items-center justify-center gap-4">
-          <div class="rounded-3xl p-4 border border-gray-300 md:w-full  md:flex  ">
-            <div class="w-full   border-solid border-3 md:w-2/5 h-60 ">
+        <div class=" flex flex-col items-center justify-center gap-4 lg:grid lg:grid-cols-12 ">
+          <div class="rounded-3xl p-4 border border-gray-300 md:w-full  md:flex  lg:col-span-8 lg:h-60   ">
+            <div class="w-full   border-solid border-3 md:w-2/5 h-60 lg:h-full ">
               <img class="h-full w-full " src="images/img1.png" alt="">
             </div>
-            <div class="mt-4 md:w-[60%] md:mt-0  md:ml-4">
+            <div class="mt-4 md:w-[60%] md:mt-0  md:ml-4 ">
              <div>
               <h1 class="text-[#494949] text-2xl font-extrabold">Commercial</h1>
-              <p class="text-xl text-gray-500 font-normal py-4 text-justify ">The barn house captivates with its is a very nice house and you all go to this house blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+              <p class="text-xl text-gray-500 font-normal py-4 text-justify lg:py-2 lg:text-xl ">The barn house captivates with its is a very nice house and you all go to this house blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
              </div>
               <div  class="flex gap-3">
                 <h1 class="text-xl  text-[#212121]  font-bold">View Details </h1>
@@ -270,9 +270,12 @@
               </div>
             </div>
           </div>
+          <div class=" hidden w-full col-span-4 border border-gray-300 rounded-3xl border-solid border-3 h-60 p-4 lg:block  ">
+            <img class="h-full w-full" src="images/img2.png" alt="">
+          </div>
          
-         <div class="  gap-2 md:flex md:gap-4 ">
-          <div class=" w-full col-span-4 border border-gray-300 rounded-3xl border-solid border-3 h-60 p-4">
+         <div class="   md:flex md:gap-4 lg:hidden ">
+          <div class=" w-full col-span-4 border border-gray-300 rounded-3xl border-solid border-3 h-60 p-4  ">
             <img class="h-full w-full" src="images/img2.png" alt="">
           </div>
 
@@ -281,16 +284,20 @@
           </div>
          </div>
 
+         <div class="col-span-3 border border-gray-300 rounded-3xl border-solid border-3 h-60 p-4 w-full lg:col-span-3">
+          <img class="h-full w-full" src="images/img3.png" alt="">
+        </div>
+
          
 
-         <div class=" rounded-3xl p-4 border border-gray-300 md:w-full  md:flex  ">
-          <div class="w-full   border-solid border-3 md:w-2/5 h-60 ">
-            <img class="h-full w-full " src="images/img1.png" alt="">
+         <div class=" rounded-3xl p-4 border border-gray-300 md:w-full  md:flex lg:col-span-6 lg:h-60  ">
+          <div class="w-full   border-solid border-3 md:w-2/5 h-60 lg:h-full ">
+            <img class="h-full w-full " src="images/img4.png" alt="">
           </div>
           <div class="mt-4 md:w-[60%] md:mt-0  md:ml-4 ">
            <div>
             <h1 class="text-[#494949] text-2xl font-extrabold">Commercial</h1>
-            <p class="text-xl text-gray-500 font-normal py-4 text-justify ">The barn house captivates with its is a very nice house and you all go to this house blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+            <p class="text-xl text-gray-500 font-normal py-4 text-justify lg:py-3 ">The barn house captivates with its blend of rustic charm and modern  this is a nice house. </p>
            </div>
             <div  class="flex gap-3">
               <h1 class="text-xl  text-[#212121]  font-bold">View Details </h1>
@@ -300,8 +307,12 @@
           </div>
         </div>
 
+        <div class="col-span-3 border border-gray-300 rounded-3xl border-solid border-3 h-60 p-4 w-full lg:col-span-3">
+          <img class="h-full w-full" src="images/img5.png" alt="">
+        </div>
 
-          <div class=" flex flex-col gap-4  md:flex md:flex-row  w-full ">
+
+          <div class=" flex flex-col gap-4  md:flex md:flex-row  w-full lg:hidden">
             <div class="col-span-3 border border-gray-300 rounded-3xl border-solid border-3 h-60 p-4 w-full">
               <img class="h-full w-full" src="images/img3.png" alt="">
             </div>
@@ -461,9 +472,9 @@
             </div>
             
           </div>
-          <div class="w-full my-8 h-64 ">
-           <input class="flex  w-full h-full rounded-2xl outline-none" type="text" placeholder="Write your message here">
-           </div>
+          <div class="w-full h-60 mb-5">
+            <textarea name="" id="" class="border-2 placeholder:text-gray-400 text-2xl rounded-3xl p-4 w-full h-full" placeholder="Enter your massage"></textarea>
+          </div>
 
 
            <div class="flex items-center justify-center mb-10 gap-5 bg-[#ABEF5F] p-4 px-5 rounded-3xl cursor-pointer">
