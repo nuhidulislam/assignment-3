@@ -31,7 +31,7 @@
 <div class="bg-gradient-to-t from-[#FFFFFF] to-[#ffffff00] w-full">
   <div class="bg-[#f1f1f1] py-10">
     <!-- nav section start here -->
-    <nav class="max-w-screen-xl  flex mx-auto items-center justify-between">
+    <nav class="max-w-screen-xl px-6 flex  mx-auto items-center justify-between ">
     
       <div class="flex items-center gap-x-4  ">
         <div class="font-thin bg-[#ABEF5F] text-gray-700  h-12 w-12 mt-2 text-3xl  -rotate-45 rounded-full flex justify-center items-center">
@@ -40,8 +40,9 @@
         
         <h1 class="font-bold text-5xl flex items-center">Rinterio</h1>
       </div>
-      <div>
-        <ul class="flex gap-6">
+
+      <div class="hidden lg:flex">
+        <ul class="flex gap-6 border border-red">
           <li><a class="text-gray-500 text-xl font-semibold hover:text-black " href="#">Home</a></li>
           <li><a class="text-gray-500 text-xl font-semibold hover:text-black " href="#">Services</a></li>
           <li><a class="text-gray-500 text-xl font-semibold hover:text-black " href="#">Portfolio</a></li>
@@ -49,20 +50,29 @@
           <li><a class="text-gray-500 text-xl font-semibold hover:text-black " href="#">Contact Us</a></li>
         </ul>
       </div>
-    
-    
-      <div class="flex items-center gap-4">
+      <div class=" hidden items-center gap-4 md:flex ">
         <div class="bg-white h-12 w-12 rounded-full flex justify-center items-center cursor-pointer text-2xl text-gray-500 font-thin "><i class="fa-solid fa-magnifying-glass"></i> </div>
         <div class="bg-white h-12 w-12 rounded-full flex justify-center items-center cursor-pointer text-2xl text-gray-600  "> <i class="fa-solid fa-cart-shopping"></i> </div>
         <div class="flex items-center gap-5 bg-[#ABEF5F] p-2 px-5 rounded-3xl cursor-pointer">
-          <div> <h1 class="font-bold text-2xl">Book Consult</h1></div>
+          <div> <h1 class="font-bold text-2xl">Book Consult</h1> </div>
   
           
             <div class="bg-black font-light   h-8 w-8 text-2xl -rotate-45 rounded-full flex justify-center items-center text-white">
               <i class="fa-solid fa-arrow-right"></i>
             </div>
+
+            
+            
+            
        
       </div>
+      </div>
+<!-- mobile hamberger manu -->
+
+      <div class="flex  lg::hidden  text-2xl bg-white h-16 w-16 items-center justify-center rounded-full ">
+        <i class=" fa-solid fa-bars"></i>
+      </div>
+
      </nav>
 
      <!-- nav section end here -->
@@ -73,8 +83,9 @@
         <img src="images/banner.png" alt="">
       </div>
       <div class="flex justify-center items-center flex-col">
-        <h1 class="text-6xl text-[#212121] font-black flex justify-center text-center p-2">A barn house of this design has a <br> striking appearance</h1>
-        <p class="w-3/6 justify-center flex text-center text-[#494949] text-xl  py-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+
+        <h1 class="text-6xl text-[#212121]  max-sm:px-5 max-sm:text-4xl font-black flex justify-center text-center p-2">A barn house of this design has a  striking appearance</h1>
+        <p class="w-11/12 px-6 justify-center flex text-center text-[#494949] text-xl  py-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
         <div class="flex items-center gap-5 bg-[#acef5f83] p-2 px-5 rounded-3xl cursor-pointer">
           <div> <h1 class="font-semibold text-xl">View Details</h1></div>
   
@@ -95,41 +106,51 @@
 
      <!-- about us section start here -->
       <div class="bg-[#e4e2e2] pt-16" >
-        <div class="max-w-screen-xl  mx-auto h-full flex ">
+        <div class="max-w-screen-xl  mx-auto h-full flex justify-center px-4 ">
 
-          <div class=" relativew-2/4  ">
-            <div class="absolute -mt-12 -ml-20">
-              <img src="images/Vector.png " alt="">
-            </div>
-            <div class="bg-white w-36 flex items-center justify-center gap-2 rounded-2xl text-xl p-2">
-              <i class="fa-solid fa-arrow-right"></i>
-              <p>About Us</p>
-            </div>
-            <h1 class="text-5xl font-bold py-4">We design thoughtful, <br> liveable spaces</h1>
-            <p class="pb-5">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
-              <div class="bg-white w-full flex items-center gap-4 rounded-2xl p-5">
-                <div>
-                  <img src="images/commercial.png" alt="">
-                </div>
-                <div class="">
-                  <h1 class="font-bold text-xl text-gray-700">Commercial</h1>
-                  <p class="w-5/6 text-gray-500 font-semibold">The barn house captivates with its blend of rustic charm and modern.</p>
+          <div class=" flex flex-col  justify-center">
+            <div class=" relativew-2/4  ">
+              <div class="hidden lg:block absolute -mt-12 -ml-20">
+                <img src="images/Vector.png " alt="">
+              </div>
+  
+              <div class="flex justify-center">
+                <div class="bg-white w-36 flex  items-center justify-center gap-2 rounded-2xl text-xl p-2">
+                  <i class="fa-solid fa-arrow-right"></i>
+                  <p>About Us</p>
                 </div>
               </div>
+              
+              <h1 class="text-4xl text-center font-bold py-4">We design thoughtful, <br> liveable spaces</h1>
+              <p class="pb-5 text-center">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                <div class="md:flex gap-4">
 
-              <div class="bg-white w-full flex items-center gap-4 rounded-2xl p-5 my-5">
-                <div>
-                  <img src="images/residential.png" alt="">
-                </div>
-                <div class="">
-                  <h1 class="font-bold text-xl text-gray-700">Commercial</h1>
-                  <p class="w-5/6 text-[#494949] font-semibold">The barn house captivates with its blend of rustic charm and modern.</p>
-                </div>
-              </div>
+                  <div class="bg-white w-full flex items-center gap-4  my-5 rounded-2xl p-5 ">
+                    <div>
+                      <img src="images/commercial.png" alt="">
+                    </div>
+                    <div class="">
+                      <h1 class="font-bold text-xl text-gray-700">Commercial</h1>
+                      <p class="w-5/6 text-gray-500 font-semibold">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                  </div>
 
-          </div>
-          <div class="w-2/4 ml-10">
-            <img class="w-full h-[500px]" src="images/Rectangle.png" alt="">
+                  <div class="bg-white w-full flex items-center gap-4 rounded-2xl p-5 my-5">
+                    <div>
+                      <img src="images/residential.png" alt="">
+                    </div>
+                    <div class="">
+                      <h1 class="font-bold text-xl text-gray-700">Commercial</h1>
+                      <p class="w-5/6 text-[#494949] font-semibold">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                  </div>
+                </div>
+  
+            </div>
+  
+            <div class="w-11/12 mx-auto">
+              <img class="w-full h-[500px]" src="images/Rectangle.png" alt="">
+            </div>
           </div>
       
         </div>
